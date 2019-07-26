@@ -8,7 +8,7 @@ function attack(count) {
                 if (data.indexOf(checkBox[i].dataset.rowindex)!=-1)  // kiem tra xem mon hoc co trong list data hay khong
                     checkBox[i].checked = true; // neu co thi tick vao mon do. buoc nay la buoc chon mon hoc va chua xac nhan
             }
-            document.querySelector(".confirm-registration").click();// confirm tat ca mon hoc
+            document.querySelector(".confirm-registration").click();// confirm tat ca mon hoc, tuong tu voi $(".confirm-resgistration")["click"]();
             attack(++count);
         },0);
     }
