@@ -1,4 +1,4 @@
-var checkBox = document.querySelector(".order"); // node list : query tat ca cac mon hoc
+var checkBox = document.querySelectorAll(".order"); // node list : query tat ca cac mon hoc
 var data = [61,62,63]; // data mon hoc (demo) (rowindex cua mon hoc)
 
 function attack(count) {
