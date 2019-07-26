@@ -9,7 +9,7 @@ function attack(count) {
                     checkBox[i].checked = true; // neu co thi tick vao mon do. buoc nay la buoc chon mon hoc va chua xac nhan
             }
             document.querySelector(".confirm-registration").click();// confirm tat ca mon hoc
-            attack(count++);
+            attack(++count);
         },0);
     }
     
